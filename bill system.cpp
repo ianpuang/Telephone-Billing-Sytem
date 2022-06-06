@@ -75,7 +75,10 @@ void bill::calculate()
 			price1=price1*0.17;
 			price2=100*0.1;
 			price=price1+price;
-		}else if()
+		}else if(unit>300)
+		{
+			int price1,price2;
+		}
 	}
 	if(category==2)
 	{//commercial category
